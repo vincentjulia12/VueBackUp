@@ -1,0 +1,9 @@
+//function for font weight
+@function weight($weight-name) {
+    @return map-get($font-weight, $weight-name);
+  }
+  
+  //function for changing font-famliy
+  @function font($font-name){
+    @return map-get($font-family, $font-name);
+  }
