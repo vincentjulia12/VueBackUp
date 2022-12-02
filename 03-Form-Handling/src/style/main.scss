@@ -1,0 +1,24 @@
+@import "./scss/variables";
+@import "./scss/mixin";
+@import "./scss/function";
+
+
+
+h2 {
+    color: $text-color-black;
+    font-weight: weight(bold);
+    font-family: font(font-2);
+}
+
+#p1 {
+    font-weight: weight(bold);
+    color: $text-color-green !important;
+    font-family: font(font-2);
+}
+
+#p2 {
+    font-weight: weight(regular);
+    color: $text-color-black !important;
+    font-family: font(font-6);
+}
+
