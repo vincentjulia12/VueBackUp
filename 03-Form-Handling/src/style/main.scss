@@ -3,7 +3,6 @@
 @import "./scss/function";
 
 
-
 h2 {
     color: $text-color-black;
     font-weight: weight(bold);
@@ -20,5 +19,10 @@ h2 {
     font-weight: weight(regular);
     color: $text-color-black !important;
     font-family: font(font-6);
+}
+
+#register-header {
+    font-weight: weight(medium);
+    font-family: font(font-4);
 }
 
