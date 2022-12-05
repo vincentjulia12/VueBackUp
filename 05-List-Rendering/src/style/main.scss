@@ -1,0 +1,61 @@
+@import "./scss/variables";
+@import "./scss/mixin";
+@import "./scss/function";
+
+
+h2 {
+    color: $text-color-black;
+    font-weight: weight(bold);
+    font-family: font(font-2);
+}
+
+#p1 {
+    font-weight: weight(bold);
+    color: $text-color-green !important;
+    font-family: font(font-1);
+}
+
+p {
+    font-weight: weight(medium);
+    font-family: font(font-2);
+}
+
+#p2 {
+    font-weight: weight(regular);
+    color: $text-color-black !important;
+    font-family: font(font-6);
+}
+
+#register-header {
+    font-weight: weight(medium);
+    font-family: font(font-4);
+}
+
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    #right-section {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+table {
+    :hover {
+        cursor: pointer;
+    }
+}
+
+th {
+    font-family: font(font-2);
+    font-weight: weight(medium);
+}
+
+
+

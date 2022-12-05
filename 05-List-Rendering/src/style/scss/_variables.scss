@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+$body-color: #272727;
+$body-color-black:#0d0d0c;
+$body-color-white:#fff;
+$b-color-gray: #6c757d;
+
+$text-color-white: #fff;
+$text-color-black:#000;
+$text-color-red: #ff0000;
+$text-color-pink: #ffc0cb;
+$text-color-green: #008000;
+
+$hover: #0dcaf0;
+
+$font-weight: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+$mobile: 800px;
+
+$font-family: (
+  "font-1": Roboto,
+  "font-2": Arial,
+  "font-3": Verdana,
+  "font-4": Tahoma,
+  "font-5": Roboto,
+  "font-6": Italic
+);
+
+
