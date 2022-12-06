@@ -55,7 +55,7 @@ export default {
             loading: false,
             users: [],
             erroMessage: null
-        };
+        };  
     },
     created: async function() {
         try {
@@ -64,9 +64,9 @@ export default {
            setTimeout(() => {
                 this.loading = false;
                 this.users = response.data;  
-                console.log('hello')
-           }, 5000);
-           
+                
+           }, 2000);
+           console.log('hello')
            
            
         } 
